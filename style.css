@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+header{
+	width: 100%;
+	height: 470px;
+	background: #000;
+	display: flex;
+}
+.header__logo{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 56px;
+	margin-left: 12%;
+}
+nav{
+	margin-top: 56px;
+	margin-left: 29%; 
+}
+.topnav a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 12px 25px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.topnav a:hover{
+	border-bottom: 3px solid #fcac45;
+}
+.topnav .icon{
+	display: none;
+}
+.welcome{
+	animation: text 3s 1;
+	letter-spacing: 3px;
+	font-size: 40px;
+	margin-left: -230px;
+	margin-top: 130px;
+	color: #fff;
+	position: 
+}
+.welcome2{
+	animation: text 3s 1;
+	color: #fcac45;
+	margin-left: 110px;
+}
+
+@keyframes text{
+	0%{
+		color: #0000;
+		margin-bottom: -10px;
+	}
+	25%{
+		color: #0000;
+		margin-bottom: -20px;
+	}
+}
+
+.img{ 
+		animation: text 5s 1;
+	box-shadow: 4px 2px 50px;
+	width: 300px;
+	height: 300px;
+	margin-top: 170px;
+	border: 5px solid #C0c0c0;
+	margin-left: -530px;
+	border-radius: 200px;
+	position: absolute;
+}
+.best{
+		animation: text 5s 1;
+	color: #000;
+	font-size: 45px;
+	margin-left: -163px;
+	margin-top: 250px;
+}
+.name1{
+		animation: text 5s 1;
+
+	font-weight: lighter;
+	font-size: 20px;
+	margin-top: 500px;
+	margin-left: -417px;
+}
+#name1{
+		animation: text 5s 1;
+
+	position: relative;
+	top: 20px;
+	text-decoration: none;
+	color: #000;
+	margin-left: -487px;
+	font-weight: bold;
+	font-size: 25px;
+}
+a{
+	text-decoration: none;
+}
+.bio{
+		animation: text 5s 1;
+
+	font-weight: bold;
+	position: relative;
+	top: 60px;
+	color: #000;
+	font-size: 20px;
+	margin-left: -177px;
+}
+#name1:hover{
+	border-bottom: 3px solid #fcac45;
+}
+.bio:hover{
+	border-bottom: 3px solid #fcac45;
+}
+.заказ{
+		animation: text 5s 1;
+
+	position: relative;
+	left:-147px;
+	top: 100px;
+	font-weight: bold;
+	color:#000;
+	font-size: 20px;
+
+}
+.заказ:hover{
+	border-bottom: 3px solid #fcac45;
+}
+.header{
+		animation: text 3s 1;
+
+	width: 250%;
+	height:150px;
+	background: #000;
+	display: flex;
+	margin-top: 400px;
+	margin-left: -800px;
+	display: flex;
+}
+.instagram{
+	border: 3px solid #0000;
+	border-radius: 30px;
+	width: 32px;
+	height: 32px;
+	left: 650px;
+	position: absolute;
+	bottom: -833px;
+}
+.rights{
+		animation: text 5s 1;
+
+	margin-left: -70px;
+	margin-top: 510px;
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+}
+.подвал{
+		animation: text 5s 1;
+
+	position: absolute;
+	margin-top: 460px;
+	color: #fff;
+	margin-left: -570px;
+	font-size: 30px;
+}
+.instagram:hover{
+	border:3px solid rgb(56 74 123);
+}
+.facebook{
+	border: 3px solid #0000;
+	border-radius: 30px;
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	margin-top: 473px;
+	margin-left: 200px;
+}
+.facebook:hover{
+	border:3px solid rgb(56 74 123);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
